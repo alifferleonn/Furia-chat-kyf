@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* styles/global.css */
+
+/* Definindo o fundo do layout */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilo global para os títulos */
+  h1, h2, h3 {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #F4D03F; /* Amarelo */
+  }
+  
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  /* Gradiente para a seção FURIA */
+  .furia-section {
+    background: linear-gradient(to bottom, #F4D03F, #e74c3c); /* Gradiente amarelo a vermelho */
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  /* Estilos para o botão */
+  button {
+    background-color: #F4D03F;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s;
+  }
+  
+  button:hover {
+    background-color: #e67e22; /* Laranja mais forte */
+  }
+  
+  /* Adicionando sombras nos botões */
+  button.shadow {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  button.bordered {
+    border: 2px solid #F4D03F;
+    background-color: transparent;
+    color: #F4D03F;
+  }
+  
+  button.bordered:hover {
+    background-color: #F4D03F;
+    color: white;
+  }
+  
+  /* Estilo para imagens dentro de cards */
+  .image-card {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  /* Adicionando um espaçamento maior entre as imagens */
+  .image-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  /* Títulos secundários */
+  .subtitle {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #f0f0f0;
+    margin-top: 20px;
+  }
+  
+  /* Títulos de seção */
+  .section-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 30px;
+  }
+  
